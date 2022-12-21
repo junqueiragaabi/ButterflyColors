@@ -8,7 +8,7 @@ Authors@R: c(
          email = "mg.junqueira@hotmail.com"),
   person(give = "Sofia",
           family = "Schirmer",
-          role = c("aut", "cre"),
+          role = c("aut"),
           email = "sofiaschirmer@gmail.com")
   )
 Description: What the package does (one paragraph).
