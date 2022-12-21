@@ -3,9 +3,9 @@ Title: What the Package Does (One Line, Title Case)
 Version: 0.0.0.9000
 Authors@R:
     c(person("Gabriela", "Junqueira", , "mg.junqueira@hotmail.com", role = c("aut", "cre"),
-           comment = c(twitter = "@junqueiragaabi"))
+           comment = c(twitter = "@junqueiragaabi")),
         person("Sofia", "Coradini", ,"sofiaschirmer@gmail.com", role = c("aut", "cre"),
-        comment = c(twitter = "@xixirmer"))
+        comment = c(twitter = "@xixirmer")))
 Description: What the package does (one paragraph).
 License: GPL (>= 3)
 Encoding: UTF-8
