@@ -1,5 +1,5 @@
 
-# **ButterflyColors** <img src="man/figures/hexalogo_butterfly.png" align="right" width="25%"/>
+# **ButterflyColors** <img src="man/figures/hexologo_butterfly.png" align="right" width="25%" />
 
 <!-- badges: start -->
 <!-- badges: end -->
