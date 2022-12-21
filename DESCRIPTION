@@ -1,11 +1,16 @@
 Package: ButterflyColors
 Title: What the Package Does (One Line, Title Case)
 Version: 0.0.0.9000
-Authors@R:
+Authors@R: c(
   person(given = "Gabriela",
          family = "Junqueira",
          role = c("aut", "cre"),
-         email = "mg.junqueira@hotmail.com")
+         email = "mg.junqueira@hotmail.com"),
+  person(give = "Sofia",
+          family = "Schirmer",
+          role = c("aut", "cre"),
+          email = "sofiaschirmer@gmail.com")
+  )
 Description: What the package does (one paragraph).
 License: GPL (>= 3)
 Encoding: UTF-8
