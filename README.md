@@ -10,8 +10,8 @@
 
 ## Overview
 
-The ButterflyColors package contains colour palette for plotting in R based on butterfly species.
-For species with sexual dimorphisms, we used male colours.
+The ButterflyColors package contains color palette for plotting in R based on butterfly species.
+For species with sexual dimorphisms, we used male colors.
 
 ## Installation
 

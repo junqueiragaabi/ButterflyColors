@@ -1,5 +1,5 @@
 Package: ButterflyColors
-Title: What the Package Does (One Line, Title Case)
+Title: Color palette for data visualization based on butterfly species
 Version: 0.0.0.9000
 Authors@R: c(
   person(given = "Gabriela",
