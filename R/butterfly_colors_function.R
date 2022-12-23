@@ -1,7 +1,11 @@
 
 butterfly_palettes <- list(
   philaethria_dido = c("#000000","#453E2D","#9EB5A2","#492B20","#4D4238"),
-  sp2 = c("#000fff","#fff000")
+  anteos_menippe = c("#654118","#D38612","#C29821","#A8B999", "#000000"),
+  fountainea_ryphea = c(""),
+  lycorea_hallia = c(""),
+  morpho_helenor = c(""),
+  archaeoprepona_demophon_thalpius = c("")
 )
 
 butterfly_pal <- function(species_butterfly){
