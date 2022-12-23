@@ -4,7 +4,7 @@
 <!-- badges: start -->
 
 [![License](https://img.shields.io/badge/license-GPL-blueviolet.svg?style=flat)](https://github.com/junqueiragaabi/ButterflyColors/blob/master/LICENSE.md)
-[![TwitterFollow]](https://twitter.com/junqueiragaabi)
+[![Twitter Follow](https://img.shields.io/twitter/follow/junqueiragaabi?style=social)](https://twitter.com/junqueiragaabi)
 
 <!-- badges: end -->
 
