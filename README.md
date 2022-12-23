@@ -3,8 +3,8 @@
 
 <!-- badges: start -->
 
-
-[![TwitterFollow]]
+[![License](https://img.shields.io/badge/license-GPL-blueviolet.svg?style=flat)](https://github.com/junqueiragaabi/ButterflyColors/blob/master/LICENSE.md)
+[![TwitterFollow]](https://twitter.com/junqueiragaabi)
 
 <!-- badges: end -->
 
