@@ -20,6 +20,7 @@ You can install the development version of ButterflyColors from [GitHub](https:/
 ``` r
 # install.packages("devtools")
 devtools::install_github("junqueiragaabi/ButterflyColors")
+library(ButterflyColors)
 ```
 ## The color scales
 
