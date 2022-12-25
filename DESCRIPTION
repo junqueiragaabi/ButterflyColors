@@ -11,7 +11,7 @@ Authors@R: c(
           role = c("aut"),
           email = "sofiaschirmer@gmail.com")
   )
-Description: Color palette for data visualization based on butterfly species
+Description: Color palette for data visualization, based on butterfly species.
 License: GPL (>= 3)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
