@@ -35,7 +35,11 @@ library(ButterflyColors)
 
 ## Contribute
 
+Can't find the species you want?
+
 If you would like to contribute to this package, please contact [Gabriela Junqueira](https://twitter.com/junqueiragaabi)
 or [Sofia Schirmer](https://twitter.com/xixirmer) on Twitter or submit a pull request
 
 ## Credits
+
+The structure of this package was inspired by the [`feathers`](https://github.com/shandiya/feathers) and [`fishualize`](https://github.com/nschiett/fishualize) packages.
