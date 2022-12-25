@@ -5,7 +5,8 @@ butterfly_palettes <- list(
   fountainea_ryphea = c("#3B1D1B", "#6D1F17", "#862735","#C1A58C","#B04320"),
   lycorea_hallia = c("#B17E35", "#B1631C", "#BF9C4B", "#28150F","#BFC2BE"),
   morpho_helenor = c("#A5C7D3", "#8FD1EE", "#3C8AAF", "#9BA2A5", "#15100D"),
-  archaeoprepona_demophon_thalpius = c("#2A2478", "#3EC1B8", "#9B6037", "#532C22", "#948777"))
+  archaeoprepona_demophon_thalpius = c("#2A2478", "#3EC1B8", "#9B6037", "#532C22", "#948777"),
+  brassolis_sophorae = c("#714E3B", "#D3AA6A", "#AC895F", "#AD7F5D", "#936950"))
 
 butterfly_pal <- function(species_butterfly){
 
