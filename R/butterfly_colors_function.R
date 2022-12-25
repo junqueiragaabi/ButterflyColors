@@ -18,3 +18,9 @@ butterfly_pal <- function(species_butterfly){
 
 
 butterfly_pal(species_butterfly = "philaethriaa")
+
+build_favicons(pkg = ".", overwrite = TRUE)
+
+pkgdown::build_favicons()
+
+init_site()

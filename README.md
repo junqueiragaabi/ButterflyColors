@@ -37,3 +37,5 @@ library(ButterflyColors)
 
 If you would like to contribute to this package, please contact [Gabriela Junqueira](https://twitter.com/junqueiragaabi)
 or [Sofia Schirmer](https://twitter.com/xixirmer) on Twitter or submit a pull request
+
+## Credits
