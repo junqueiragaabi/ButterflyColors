@@ -60,10 +60,11 @@ A few examples...
 library(tidyverse)
 
 ggplot(iris, aes(x = Sepal.Length, y = Petal.Length, colour = Species)) +
-  geom_point(size = 4) +
+  geom_point(size = 3) +
   scale_colour_manual(values = butterfly_palettes("fountainea_ryphea"))
 ```
 
+<img src="man/figures/fountainea_ryphea_plot.png" style="display: block; margin: auto;" />
 
 
 ## Contribute

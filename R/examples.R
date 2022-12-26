@@ -2,9 +2,14 @@ library(tidyverse)
 library(ButterflyColors)
 
 
+print_pal(butterfly_palettes("fountainea_ryphea"))
+
 ggplot(iris, aes(x = Sepal.Length, y = Petal.Length, colour = Species)) +
-  geom_point(size = 4) +
-  scale_colour_manual(values = butterfly_palettes("fountainea_ryphea")) #1
+  geom_point(size = 3) +
+  scale_colour_manual(values = butterfly_palettes("fountainea_ryphea")) + #1
+  theme_bw(base_size = 17)
+
+ggsave("fountainea_ryphea_plot.png")
 
 ggplot(iris, aes(x = Sepal.Length, y = Petal.Length, colour = Species)) +
   geom_point(size = 4) +
@@ -23,3 +28,5 @@ ggplot(iris, aes(x = Sepal.Length, y = Petal.Length, colour = Species)) +
   scale_colour_manual(values = butterfly_palettes("parides_zacynthus_polymetus"))
 
 butterfly_palettes(specie = "morpho_helenor")
+
+library(Butterfly)
