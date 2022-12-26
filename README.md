@@ -64,7 +64,7 @@ ggplot(iris, aes(x = Sepal.Length, y = Petal.Length, colour = Species)) +
   scale_colour_manual(values = butterfly_palettes("fountainea_ryphea"))
 ```
 
-<img src="man/figures/fountainea_ryphea_plot.png" style="display: block; margin: auto;" />
+<img src="man/figures/fountainea_ryphea_plot.png" width="672"/>
 
 
 ## Contribute
