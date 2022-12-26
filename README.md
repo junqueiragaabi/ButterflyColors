@@ -36,16 +36,16 @@ The color palettes per species are organized in a list called butterfly_species:
 library(ButterflyColors)
 names(butterfly_species)
 ```
- ## [1] "philaethria_dido"                 "anteos_menippe"                   "fountainea_ryphea"
- ## [4] "lycorea_hallia"                   "morpho_helenor"                  "archaeoprepona_demophon_thalpius"
- ## [7] "brassolis_sophorae"               "historis_acheronta"               "stalachtis_phlegia_susanna"
- ## [10] "battus_polydamas"                 "anteos_clorinde"                  "chorinea_licursis"
- ## [13] "danaus_eresimus"                  "smyrna_blomfidiana"               "astraptes_fulgerator"
- ## [16] "hamadryas_feronia"                "pseudolycaena_marsyas"            "catagramma_pygas"
- ## [19] "heliconius_sara_apseudes"         "synargis_calyce"                  "hamadryas_feronia"
- ## [22] "heliconius_erato_phyllis"         "hylephila_phyleus"                "danaus_erippus"
- ## [25] "danaus_gilippus"                  "junonia_evarete"                  "hemiargus_hanno"
- ## [28] "dynamine_postverta"               "parides_zacynthus_polymetus"      "marpesia_petreus"
+    ## [1] "philaethria_dido"                 "anteos_menippe"                   "fountainea_ryphea"
+    ## [4] "lycorea_hallia"                   "morpho_helenor"                  "archaeoprepona_demophon_thalpius"
+    ## [7] "brassolis_sophorae"               "historis_acheronta"               "stalachtis_phlegia_susanna"
+    ## [10] "battus_polydamas"                 "anteos_clorinde"                  "chorinea_licursis"
+    ## [13] "danaus_eresimus"                  "smyrna_blomfidiana"               "astraptes_fulgerator"
+    ## [16] "hamadryas_feronia"                "pseudolycaena_marsyas"            "catagramma_pygas"
+    ## [19] "heliconius_sara_apseudes"         "synargis_calyce"                  "hamadryas_feronia"
+    ## [22] "heliconius_erato_phyllis"         "hylephila_phyleus"                "danaus_erippus"
+    ## [25] "danaus_gilippus"                  "junonia_evarete"                  "hemiargus_hanno"
+    ## [28] "dynamine_postverta"               "parides_zacynthus_polymetus"      "marpesia_petreus"
 
 the function `butterfly_palettes` returns a vector with the color palette (hex color codes) of a butterfly.
 
