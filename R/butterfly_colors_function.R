@@ -16,7 +16,7 @@ butterfly_species <- list(
   astraptes_fulgerator = c("#449DB3", "#A3BAC2", "#60BFAE", "#8C6E5D", "#6C5043"),
   hamadryas_feronia = c("#B7957C", "#A68A7B", "#734939", "#A6432D", "#9BA8AE"),
   pseudolycaena_marsyas = c("#89B7CF", "#5C92B4", "#619FA2", "#8C6751", "#593527"),
-  catagramma_pygas = c("#BF2A37", "#D3392F", "#D93636", "#BFA77A", "#59352D"),
+  catagramma_pygas = c("#BF2A37","#59352D", "#D3392F","#BFA77A", "#D93636"),
   heliconius_sara_apseudes = c("#1F5373", "#243C56", "#CCD99C", "#B9BF8E", "#261514"),
   synargis_calyce = c("#D3D9D9", "#BF7F5A", "#A65233", "#8C5946", "#5F3121"),
   hamadryas_feronia = c("#A6ACAA", "#6D3E34", "#658290", "#735A4C", "#372C26"),
@@ -31,9 +31,9 @@ butterfly_species <- list(
   marpesia_petreus = c("#D98B48", "#BC5918", "#BF4B21", "#8C311C", "#5F291C"))
 
 
-butterfly_palettes <- function(sp){
+butterfly_palettes <- function(specie){
 
-  palette <- butterfly_species[[sp]]
+  palette <- butterfly_species[[specie]]
   if(is.null(palette))
     stop("That species does not exist in the list ! :(")
   palette
@@ -54,4 +54,4 @@ iris
 
 ggplot(iris, aes(x = Sepal.Length, y = Petal.Length, colour = Species)) +
   geom_point() +
-  scale_colour_manual(values = butterfly_pal("fountainea_ryphea"))
+  scale_colour_manual(values = butterfly_palettes("fountainea_ryphea"))

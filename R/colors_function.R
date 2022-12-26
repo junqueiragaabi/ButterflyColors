@@ -31,9 +31,9 @@ butterfly_species <- list(
   marpesia_petreus = c("#D98B48", "#BC5918", "#BF4B21", "#8C311C", "#5F291C"))
 
 
-butterfly_palettes <- function(sp){
+butterfly_palettes <- function(specie){
 
-  palette <- butterfly_species[[sp]]
+  palette <- butterfly_species[[specie]]
   if(is.null(palette))
     stop("That species does not exist in the list ! :(")
   palette
