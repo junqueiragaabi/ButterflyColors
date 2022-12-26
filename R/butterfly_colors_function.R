@@ -1,4 +1,4 @@
-butterfly_palettes <- list(
+butterfly_species <- list(
   philaethria_dido = c("#000000","#453E2D","#9EB5A2","#492B20","#4D4238"),
   anteos_menippe = c("#A8BFAA", "#D9AD29", "#D97D0D", "#D96C0D", "#0D0D0D"),
   fountainea_ryphea = c("#8C2B3D", "#2F182A", "#BF4124", "#51151F", "#43211F"),
@@ -31,9 +31,9 @@ butterfly_palettes <- list(
   marpesia_petreus = c("#D98B48", "#BC5918", "#BF4B21", "#8C311C", "#5F291C"))
 
 
-butterfly_pal<- function(species_butterfly){
+butterfly_palettes <- function(sp){
 
-  palette <- butterfly_palettes[[species_butterfly]]
+  palette <- butterfly_species[[sp]]
   if(is.null(palette))
     stop("That species does not exist in the list ! :(")
   palette
