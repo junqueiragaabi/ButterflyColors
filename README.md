@@ -47,11 +47,25 @@ names(butterfly_species)
     ## [25] "danaus_gilippus"                  "junonia_evarete"                  "hemiargus_hanno"
     ## [28] "dynamine_postverta"               "parides_zacynthus_polymetus"      "marpesia_petreus"
 
-the function `butterfly_palettes` returns a vector with the color palette (hex color codes) of a butterfly.
+and the function `butterfly_palettes` returns a vector with the color palette (hex color codes) of a butterfly.
 
 ``` r
 butterfly_palettes(specie = "morpho_helenor")
 ```
+    ## [1] "#4590BF" "#79BED9" "#6CCED9" "#A65C41" "#0D0D0D"
+
+A few examples...
+
+```r
+library(tidyverse)
+
+ggplot(iris, aes(x = Sepal.Length, y = Petal.Length, colour = Species)) +
+  geom_point(size = 4) +
+  scale_colour_manual(values = butterfly_palettes("fountainea_ryphea"))
+```
+
+
+
 ## Contribute
 
 Can't find the species you want?
