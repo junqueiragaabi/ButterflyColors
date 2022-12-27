@@ -67,6 +67,12 @@ ggplot(iris, aes(x = Sepal.Length, y = Petal.Length, colour = Species)) +
 
 <img src="man/figures/parides_zacynthus_polymetus_plot.png" width="672"/>
 
+#### *Fountainea ryphea*
+
+<img src="man/figures/fountainea_example.png" width="672"/>
+
+
+
 
 ## Contribute
 
