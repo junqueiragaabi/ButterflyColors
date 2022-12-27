@@ -34,3 +34,4 @@ ggplot(iris, aes(x = Sepal.Length, y = Petal.Length, colour = Species)) +
 
 ggsave("parides_zacynthus_polymetus_plot.png")
 
+butterfly_palettes(specie = "parides_zacynthus_polymetus")
