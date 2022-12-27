@@ -50,7 +50,7 @@ names(butterfly_species)
 and the function `butterfly_palettes` returns a vector with the color palette (hex color codes) of a butterfly.
 
 ``` r
-butterfly_palettes(specie = "morpho_helenor")
+butterfly_palettes(specie = "parides_zacynthus_polymetus")
 ```
     ## [1] "#4590BF" "#79BED9" "#6CCED9" "#A65C41" "#0D0D0D"
 
@@ -61,10 +61,10 @@ library(tidyverse)
 
 ggplot(iris, aes(x = Sepal.Length, y = Petal.Length, colour = Species)) +
   geom_point(size = 3) +
-  scale_colour_manual(values = butterfly_palettes("fountainea_ryphea"))
+  scale_colour_manual(values = butterfly_palettes("parides_zacynthus_polymetus"))
 ```
 
-<img src="man/figures/fountainea_ryphea_plot.png" width="672"/>
+<img src="man/figures/parides_zacynthus_polymetus_plot.png" width="672"/>
 
 
 ## Contribute
