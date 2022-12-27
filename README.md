@@ -51,8 +51,9 @@ and the function `butterfly_palettes` returns a vector with the color palette (h
 
 ``` r
 butterfly_palettes(specie = "parides_zacynthus_polymetus")
+
 ```
-    ## [1] "#4590BF" "#79BED9" "#6CCED9" "#A65C41" "#0D0D0D"
+    ## [1] "#37738D" "#9B8170" "#D98B79" "#BF6860" "#292325"
 
 A few examples...
 
