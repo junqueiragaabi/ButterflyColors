@@ -1,3 +1,6 @@
+#' List of butterfly species
+#' @export
+
 butterfly_species <- list(
   philaethria_dido = c("#000000","#453E2D","#9EB5A2","#492B20","#4D4238"),
   anteos_menippe = c("#A8BFAA", "#D9AD29", "#D97D0D", "#D96C0D", "#0D0D0D"),
@@ -31,11 +34,18 @@ butterfly_species <- list(
   marpesia_petreus = c("#D98B48", "#BC5918", "#BF4B21", "#8C311C", "#5F291C"))
 
 
+#' Select butterfly palette
+#' @description This function returns colour palettes
+#' @param specie Butterfly specie
+#' @return A vector of hex colour codes
+#' @export
+#' @examples
+
 butterfly_palettes <- function(specie){
 
   palette <- butterfly_species[[specie]]
   if(is.null(palette))
-    stop("That species does not exist in the list ! :(")
+    stop("That species does not exist in the list or in the nature!")
   palette
 }
 
