@@ -58,7 +58,7 @@ butterfly_palettes(specie = "parides_zacynthus_polymetus")
 A few examples...
 
 ```r
-library(tidyverse)
+library(ggplot2)
 
 ggplot(iris, aes(x = Sepal.Length, y = Petal.Length, colour = Species)) +
   geom_point(size = 3) +
