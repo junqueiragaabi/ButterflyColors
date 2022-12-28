@@ -13,13 +13,12 @@ Authors@R: c(
   )
 Description: Color palette for data visualization, based on butterfly species.
 License: GPL (>= 3)
+LazyData: true
+Suggests:
+    ggplot2
 Encoding: UTF-8
-Depends:
-  ggplot2
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.2.1
+RoxygenNote: 7.2.3
 URL: https://github.com/junqueiragaabi/ButterflyColors,
     https://junqueiragaabi.github.io/ButterflyColors/
 BugReports: https://github.com/junqueiragaabi/ButterflyColors/issues
-Imports:
-  ggplot2
