@@ -39,19 +39,3 @@ butterfly_palettes <- function(specie){
   palette
 }
 
-ggplot(penguins) +
-  geom_point(aes(flipper_length_mm, body_mass_g, colour = species)) +
-  scale_colour_manual(values = butterfly_pal("fountainea_ryphea"))
-
-
-library(tidyverse)
-
-starwars
-luv_colours
-msleep
-species
-iris
-
-ggplot(iris, aes(x = Sepal.Length, y = Petal.Length, colour = Species)) +
-  geom_point() +
-  scale_colour_manual(values = butterfly_palettes("fountainea_ryphea"))
