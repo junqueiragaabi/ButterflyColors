@@ -65,19 +65,19 @@ ggplot(iris, aes(x = Sepal.Length, y = Petal.Length, colour = Species)) +
   scale_colour_manual(values = butterfly_palettes("parides_zacynthus_polymetus"))
 ```
 
-<img src="images/parides_zacynthus_polymetus_plot.png" width="672"/>
+<img src="man/figures/parides_zacynthus_polymetus_plot.png" width="672"/>
 
 ### *Fountainea ryphea*
 
-<img src="images/fountainea_example.png" width="672"/>
+<img src="man/figures/fountainea_example.png" width="672"/>
 
 ### *Archaeoprepona demophon thalpius*
 
-<img src="images/archaeopreprona_example.png" width="672"/>
+<img src="man/figures/archaeopreprona_example.png" width="672"/>
 
 ### *Anteos menippe*
 
-<img src="images/anteos_example.png" width="672"/>
+<img src="man/figures/anteos_example.png" width="672"/>
 
 ## Contribute
 
