@@ -73,10 +73,11 @@ ggplot(iris, aes(x = Sepal.Length, y = Petal.Length, colour = Species)) +
 
 ### *Archaeoprepona demophon thalpius*
 
+<img src="man/figures/archaeopreprona_example.png" width="672"/>
+
 ### *Anteos menippe*
 
-
-
+<img src="man/figures/anteos_example.png" width="672"/>
 
 ## Contribute
 
