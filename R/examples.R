@@ -1,13 +1,20 @@
 library(tidyverse)
 library(ButterflyColors)
-
+library(patchwork)
 
 print_pal(butterfly_palettes("fountainea_ryphea"))
 
-ggplot(iris, aes(x = Sepal.Length, y = Petal.Length, colour = Species)) +
+a <- ggplot(iris, aes(x = Sepal.Length, y = Petal.Length, colour = Species)) +
   geom_point(size = 3) +
   scale_colour_manual(values = butterfly_palettes("fountainea_ryphea")) + #1
   theme_bw(base_size = 17)
+
+b <- ggplot(diamonds, aes(x = cut, fill = cut)) +
+  geom_bar() +
+  scale_fill_manual(values = butterfly_palettes("fountainea_ryphea")) +
+  theme_bw(base_size = 17)
+
+a + b
 
 ggsave("fountainea_ryphea_plot.png")
 
@@ -35,3 +42,8 @@ ggplot(iris, aes(x = Sepal.Length, y = Petal.Length, colour = Species)) +
 ggsave("parides_zacynthus_polymetus_plot.png")
 
 butterfly_palettes(specie = "parides_zacynthus_polymetus")
+
+install.packages("palmerpenguins")
+
+library(palmerpenguins)
+penguins
